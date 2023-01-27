@@ -1,0 +1,26 @@
+{
+  "name": "vuetify3-app-wireframe-base",
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [
+    3000,
+    4173
+  ],
+  "extensions": [
+    "Vue.volar",
+    "Vue.vscode-typescript-vue-plugin",
+    "ms-vscode.vscode-typescript-next",
+    "streetsidesoftware.code-spell-checker",
+    "naumovs.color-highlight",
+    "saikou9901.evilinspector",
+    "fabiospampinato.vscode-highlight",
+    "oderwat.indent-rainbow",
+    "Gruntfuggly.todo-tree",
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    "christian-kohler.path-intellisense",
+    "shardulm94.trailing-spaces",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "files.eol": "\n",
+  "editor.tabSize": 2,
+  "path-intellisense.mappings": {
+    "@/": "${workspaceFolder}/app/src/",
+  },
+  // Linter
+  "eslint.packageManager": "yarn",
+  "eslint.workingDirectories": [
+    "./app"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true,
+  },
+  "stylelint.validate": [
+    "vue",
+    "css",
+  ],
+  // Formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "prettier.requireConfig": true,
+  "prettier.configPath": "./app/.prettierrc.json",
+  "prettier.prettierPath": "./app/node_modules/prettier",
+  //
+  "cSpell.words": [
+    "vuetify"
+  ],
+}
