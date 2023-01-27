@@ -29,11 +29,16 @@
   <v-app :theme="theme">
     <AppBar
       :title="title"
+      color="primary"
       @click-bar-nav-icon="drawer = !drawer"
       @click-theme-icon="switchTheme"
     />
     <NavigationDrawer v-model="drawer" />
     <MainView />
-    <Footer :owner-name="ownerName" :published-year="publishedYear" />
+    <Footer
+      :owner-name="ownerName"
+      :published-year="publishedYear"
+      color="primary"
+    />
   </v-app>
 </template>
